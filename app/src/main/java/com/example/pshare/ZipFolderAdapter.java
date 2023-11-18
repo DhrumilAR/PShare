@@ -40,7 +40,7 @@ public class ZipFolderAdapter extends RecyclerView.Adapter<ZipFolderAdapter.ZipF
 
         public ZipFolderViewHolder(View itemView){
             super(itemView);
-            folderNameTextView = itemView.findViewById(R.id.textfolder);
+            folderNameTextView = itemView.findViewById(R.id.textfolder)
         }
     }
 }
