@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734450976964",
+    "project_id": "pshare-6a857",
+    "storage_bucket": "pshare-6a857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734450976964:android:dbfcf6a9e5dbc4db69a191",
+        "android_client_info": {
+          "package_name": "com.example.pshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4pf2OCseRDbYHcCz23ZLQjoCMqzu2xEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
