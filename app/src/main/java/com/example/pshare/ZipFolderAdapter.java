@@ -13,7 +13,8 @@ import java.util.List;
 public class ZipFolderAdapter extends RecyclerView.Adapter<ZipFolderAdapter.ZipFolderViewHolder> {
 
     private List<ZipFolder> zipFolders;
-    public ZipFolderAdapter(List<ZipFolder> zipFolders){
+
+    public ZipFolderAdapter(List<ZipFolder> zipFolders) {
         this.zipFolders = zipFolders;
 
     }
@@ -21,7 +22,7 @@ public class ZipFolderAdapter extends RecyclerView.Adapter<ZipFolderAdapter.ZipF
     @NonNull
     @Override
     public ZipFolderAdapter.ZipFolderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_homefragment,parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_homefragment, parent, false);
         return new ZipFolderViewHolder(view);
     }
 
@@ -35,12 +36,12 @@ public class ZipFolderAdapter extends RecyclerView.Adapter<ZipFolderAdapter.ZipF
         return zipFolders.size();
     }
 
-    public static class ZipFolderViewHolder extends RecyclerView.ViewHolder{
+    public static class ZipFolderViewHolder extends RecyclerView.ViewHolder {
         private TextView folderNameTextView;
 
-        public ZipFolderViewHolder(View itemView){
+        public ZipFolderViewHolder(View itemView) {
             super(itemView);
-            folderNameTextView = itemView.findViewById(R.id.textfolder)
+            folderNameTextView = itemView.findViewById(R.id.textfolder);
         }
     }
 }
